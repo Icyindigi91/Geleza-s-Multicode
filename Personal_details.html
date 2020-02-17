@@ -1,0 +1,254 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G.M.O.A Registration</title>
+    <link href="C:\Users\Student\Desktop\Zarmedy\style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1 id='mama'>G.M.O.A</h1>
+    <a href="C:\Users\Student\Desktop\Zarmedy\index.html"> Back</a>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+                        
+                            <!-- class_styling-->
+
+    <style>
+        .hero-image {
+            background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url("https://lh3.googleusercontent.com/JAO8sATmOS3gZ0krHJAw5zJUT7bSKJvQ2kTDiBaRZltiZozWEPqVtdUz7NLHRwZkuQ6HBVP-vWcakaS5=s1280-p-no-v1");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%, -50%); 
+            color:white;
+        }
+        .hero-texxt-button {
+        border: none;
+        outline-color: azure;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        cursor: pointer;
+        }
+        .hero-text button:hover {
+            background-color: #555;
+            color: white;
+        }
+        
+    </style>
+    
+                        <!-- banner/hero image -->
+    <!-- <h4 class="blue-text"> Personal Details</h4> -->
+    <!-- <div class="hero-image"> -->
+        <!-- <div class="hero-text"> -->
+            <!-- <h1 style="fontsize:50px"> G.M.O.A</h1> -->
+            <!-- <p>Cofa, Ulindeni?</p> -->
+            <!-- <button>Apply Now!</button> -->
+        <!-- </div> -->
+    <!-- </div> -->
+    <h4>Personal Details</h4>
+    <form action="#">
+        <table>
+            <tr>
+                <td>
+                    Name :
+                </td>
+                <td>
+                    <input type="text" placeholder="Type Name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Surname :
+                </td>
+                <td>
+                    <input type="text" placeholder="Type Surname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Gender" value="Gender"> Gender :</label>
+                    Male<input type="radio" name="Gender" required>
+                    Female<input type="radio" name="Gender" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Title :
+                </td>
+                <td>
+                    <select name="Title" id="Applicanttitle">
+                        <option value="Title1">--select--</option>
+                        <option value="Title1"> Mr</option>
+                        <option value="Title1"> Mrs</option>
+                        <option value="Title1"> Dr</option>
+                        <option value="Title1"> Hons</option>
+                        <option value="Title1"> Rev</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Country :
+                </td>
+                <td>
+                    <select name="Country" id="ApplicantCountry"> 
+                        <option value="Country"> South Africa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Id number :
+                </td>
+                <td>
+                    <input type="text" placeholder="Type Id number" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date Of Birth :
+                </td>
+                <td>
+                    <input type="text" placeholder="DD/MM/YYY" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Marital Status :
+                </td>
+                <td>
+                    <select name="Marital Status" id="Applicantmaritalstatus"> 
+                        <option value="none">--select--</option>
+                        <option value="Marital Status1"> Single not married</option>
+                        <option value="Marital Status2"> married</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Current Position :
+                </td>
+                <td>
+                    <select name="Currentposition" id="Applicantcurrentposition">
+                    <option value="none">--select--</option>
+                    <option value="none"> Grade 12 Pupil</option>
+                    <option value="none"> Unemployed</option>    
+                    <option value="none"> Employed</option>
+                    <option value="none"> Undergraduate</option>
+                    <option value="none"> Postgraduate</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h4>Parent/Guardian</h4>
+        <table>
+            <tr>
+                <td>
+                    Specify relationship :
+                </td>
+                <td>
+                    <select name="Parentrelationship" id="Applicantparentrelationship">
+                        <option value="none">--select--</option>
+                        <option value="parentchoice1"> Mother</option>
+                        <option value="parentchoice2"> Father</option>
+                        <option value="parentchoice3"> Guardian</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    First Names :
+                </td>
+                <td>
+                    <input type="text" placeholder="Type name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Surname :
+                </td>
+                <td>
+                    <input type="text" placeholder="Type Surname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Title :
+                </td>
+                <td>
+                    <select name="Parenttitle" id="Applicantparenttitle">
+                        <option value="none">--select--</option>
+                        <option value="titlechoice1"> Mr</option>
+                        <option value="titlechoice2"> Ms</option>
+                        <option value="titlechoice3"> Dr</option>
+                        <option value="titlechoice4"> Hons</option>
+                        <option value="titlechoice5"> Prof</option>
+                        <option value="titlechoice6"> Rev</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Id number :
+                </td>
+                <td>
+                    <input type="text" placeholder="Type Id number" required>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    Date of Birth :
+                </td>
+                <td>
+                    <input type="text" placeholder="DD/MM/YYY" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Country :
+                </td>
+                <td>
+                    <input type="text" placeholder="Country Name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Marital Status :
+                </td>
+                <td>
+                    <select name="Parentmaritalstatus" id="Applicantsparentmaritalstatus">
+                        <option value="none">--select--</option>
+                        <option value="maritalstatuschoice1"> Single not married</option>
+                        <option value="maritalstatuschoice2"> Married</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        
+        <button type="Submit" name="Submit">Submit</button>
+        <button><a href="C:\Users\Student\Desktop\Zarmedy\Contact_details.html"> Next</a></button>
+    </form>
+
+
+
+
+
+
+</body>
+</html>
